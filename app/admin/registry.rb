@@ -1,4 +1,5 @@
 ActiveAdmin.register Registry do
+  permit_params :edad, :genero
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
